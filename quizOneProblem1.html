@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz One - Problem 1</title>
+</head>
+<body>
+    <script>
+        document.write(`<h1>Quiz One Problem 1 Solution Output</h1><h2>Zacarias, Alfredo Luis of BSIT 3LG2</h2><br><br>`);
+        for (let i = 1; i < 201; i++){
+            if ((i%3==0) && (i%5==0)){
+                console.log(`Undecided`);
+                document.write(`Undecided<br>`);
+            }
+            else if (i % 3 == 0) {
+                console.log(`Leni`);
+                document.write(`Leni<br>`);
+            }
+            else if (i % 5 == 0){
+                console.log(`BongBong`);
+                document.write(`BongBong<br>`);
+            }
+            else{
+                console.log(i);
+                document.write(i + `<br>`);
+            }
+        }
+    </script>
+</body>
+</html>
